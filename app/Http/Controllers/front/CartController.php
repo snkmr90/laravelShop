@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
-
+namespace App\Http\Controllers\front;
 use Illuminate\Http\Request;
 use App\Session;
 use App\Product;
+use App\Http\Controllers\Controller;
 class CartController extends Controller
 {
     /**
@@ -15,7 +15,7 @@ class CartController extends Controller
     public function index()
     {
         $cartItems = session()->get('cart');
-        return view('checkout',compact('cartItems'));
+        return view('front/checkout',compact('cartItems'));
     }
 
     /**
