@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('head')
 @endsection('head')
-@section('title', 'Page Title')
+@section('title', 'Home')
 
 @section('sidebar')
 @parent
