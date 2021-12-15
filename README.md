@@ -1,9 +1,8 @@
-/**
 * Casadar Add Product API Endpoint: https://www.casadar.com/en/api/product/addProduct
 * Notes :
 * Mandatory input to use API in headers : Api key in X-API-KEY header.
 * Product Weight must be in KG. Product Length, Width, Height must be in CM. 
-*/
+
 # Request Method: POST via json data
 ```json
 {
@@ -26,25 +25,25 @@
     "ProductShortDesc":"This is an example product"
 }
 ```
-# Fields/Parameters Validations:
-# CasadarEmail=>'Required|Valid Email', //casadar registered pro user email here,
-# CasadarPassword=>'Required', //casadar registered pro user password here,
-# ProductName_en => 'Required'
-# SalePrice => 'Required|numeric'
-# ProductPrice => 'Required|numeric'
-# ProductStock => 'Required|numeric',
-# ProductLength => 'Required|numeric'
-# ProductWidth => 'Required|numeric'
-# ProductHeight => 'Required|numeric'
-# ProductWeight => 'Required|numeric'
-# ImageStorageUrl => 'Required|Valid Url'
-# ImageName => 'Required'
-# ProductShortDesc => 'Required'
+ Fields/Parameters Validations:
+ CasadarEmail=>'Required|Valid Email', //casadar registered pro user email here,
+ CasadarPassword=>'Required', //casadar registered pro user password here,
+ ProductName_en => 'Required'
+ SalePrice => 'Required|numeric'
+ ProductPrice => 'Required|numeric'
+ ProductStock => 'Required|numeric',
+ ProductLength => 'Required|numeric'
+ ProductWidth => 'Required|numeric'
+ ProductHeight => 'Required|numeric'
+ ProductWeight => 'Required|numeric'
+ ImageStorageUrl => 'Required|Valid Url'
+ ImageName => 'Required'
+ ProductShortDesc => 'Required'
 
-# ProductName_ar => 'optional'
-# ProductCartDesc => 'optional'
-# productCartDescAR => 'optional'
-# ProductShortDesc => 'optional'
-# productshortDescAR => 'optional'
-# ProductLongDesc => 'optional'
-# productLongDescAR => 'optional'
+ ProductName_ar => 'optional'
+ ProductCartDesc => 'optional'
+ productCartDescAR => 'optional'
+ ProductShortDesc => 'optional'
+ productshortDescAR => 'optional'
+ ProductLongDesc => 'optional'
+ productLongDescAR => 'optional'
